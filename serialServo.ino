@@ -12,6 +12,10 @@
   siguenos y apoyanos para seguir subiendo proyectos de calidad
   si nos apoyas podremos invertir cada vex en mas proyectos de dominio 
   libre relacionados a la programacion en general
+  todo el equipo de la empresa minetronix-labs 
+  deseamos que el codigo sea de utilidad y nos siten en los proyectos
+  que realicen, nos ayudaria muchisimo para tener un mayor impacto en el 
+  mundo de la programacion.
   */
 
 #include <Servo.h> 
