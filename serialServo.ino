@@ -1,3 +1,19 @@
+/*codigo realizado por Evil-Demon
+  para la empresa de Minetronix-Labs
+  perteneciente al Ingeniero Jorge Alberto Rodriguez Euan 
+  y la ingeniera Sandra Adriana Enciso Rios que son
+  los patrocinadores del proyecto y consultores
+  del proyecto.
+  en proyectos posteriores con la incorporacion de
+  las interfaces graficas su participacion sera mayor.
+  instagram de evil demon: @strongerlife.zac
+  instagram de sandy: @hexe.sandy
+  instragram de alberto: albertronix.641
+  siguenos y apoyanos para seguir subiendo proyectos de calidad
+  si nos apoyas podremos invertir cada vex en mas proyectos de dominio 
+  libre relacionados a la programacion en general
+  */
+
 #include <Servo.h> 
 int servo1;
 int servo2;
@@ -32,8 +48,8 @@ Serial.begin(9600);
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:}
-  //resive por serial
+
+  // por serial
   //( posicion1,posicion2,posicion3,posicion4,poscion5 )
   //al final de cada instruccion deve de haber un salto de linea
    if (Serial.available() > 0)
